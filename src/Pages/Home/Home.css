@@ -1,0 +1,99 @@
+.poster {
+  height: 600px;
+  position: relative;
+  margin: 0;
+}
+
+.pop {
+  margin-bottom: 2rem;
+}
+
+.poster.posterimg {
+  height: 100%;
+  display: block;
+  width: 100%;
+}
+
+.title {
+  position: absolute;
+  font-weight: 600;
+  top: 19rem;
+  left: 3rem;
+}
+
+.movie-details {
+  position: absolute;
+  top: 22rem;
+  left: 3rem;
+}
+
+.rate {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.rate h2 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.rate i {
+  color: gold;
+}
+
+.date {
+  margin-top: 2px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.date h2 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.overview {
+  max-width: 700px;
+  font-family: sans-serif;
+  text-align: left;
+  margin-top: 2px;
+}
+
+@media screen and (max-width: 780px) {
+  .poster.posterimg {
+    height: 80%;
+    display: block;
+    width: 100%;
+  }
+  .title {
+    font-size: 11px;
+    font-weight: 200;
+    top: 15rem;
+    left: 3rem;
+  }
+  /* 
+  .poster {
+    max-height: 800px;
+  } */
+  .movie-details {
+    top: 20rem;
+    left: 3rem;
+  }
+
+  .pop {
+    margin-bottom: 1rem;
+  }
+
+  .overview {
+    font-size: 10px;
+    top: 21rem;
+    margin-right: 3px;
+  }
+
+  .date {
+    margin-top: 2px;
+    gap: 5px;
+  }
+}

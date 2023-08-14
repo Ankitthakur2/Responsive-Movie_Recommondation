@@ -1,0 +1,165 @@
+.moviedetail {
+  height: 600px;
+  width: auto;
+  position: relative;
+}
+
+.background-pic {
+  height: 400px;
+  width: 80%;
+  position: relative;
+}
+
+.second_part {
+  position: absolute;
+  top: 35%;
+  display: flex;
+  left: 10rem;
+}
+
+.poster-pic {
+  width: 200px;
+  height: 300px;
+}
+
+.movie-title {
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.details {
+  margin-left: 2rem;
+  /* max-width: 400px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie-tagline {
+  margin-bottom: 0.3rem;
+}
+
+.duration {
+  margin-bottom: 0.3rem;
+}
+
+.rate-vote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.3rem;
+}
+
+.rate-vote span {
+  padding-left: 1rem;
+}
+.date {
+  margin-bottom: 1rem;
+}
+
+.moviegenre {
+  border: 2px solid white;
+  border-radius: 20%;
+  padding: 5px;
+  margin-left: 1rem;
+}
+
+.overview {
+  margin-top: 5rem;
+}
+
+.overview p {
+  margin-top: 0.3rem;
+}
+
+.production_com {
+  color: blue;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.company_logo {
+  margin: 0.5rem;
+
+  background-color: white;
+}
+
+.company_logo img {
+  height: 200px;
+  width: 250px;
+}
+
+.com-name {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.heading {
+  margin: 1rem;
+}
+
+@media screen and (max-width: 780px) {
+  .moviedetail {
+    height: 600px;
+    width: 100%;
+    position: relative;
+    font-size: 10px;
+  }
+
+  .production_com {
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+  }
+
+  .second_part {
+    left: 1rem;
+  }
+
+  .background-pic {
+    /* height: 250px; */
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .poster-pic {
+    width: 150px;
+    height: 250px;
+  }
+
+  .movie-title {
+    font-weight: 400;
+    font-size: 13px;
+  }
+
+  .rate-vote span {
+    padding-left: 0.3rem;
+  }
+
+  .moviegenre {
+    border: 1px solid white;
+    border-radius: 10%;
+    padding: 1px;
+    /* display: flex; */
+    margin-left: 0.5rem;
+
+    font-size: 8px;
+  }
+
+  .genres {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.1rem;
+  }
+
+  .details {
+    margin-left: 1rem;
+    /* max-width: 400px; */
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: flex-start; */
+  }
+}
