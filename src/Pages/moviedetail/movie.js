@@ -71,7 +71,7 @@ export default function Movie() {
           </div>
         </div>
       </div>
-      <h2 className="heading">Producton Companies</h2>
+      <h2 className="heading">Production Companies</h2>
       <div className="production_com">
         {moviedetail && moviedetail.production_companies
           ? moviedetail.production_companies.map((company) => (
